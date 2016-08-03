@@ -5,7 +5,7 @@ This is a dumb little library I made because I don't like using autocomplete to 
 This will print out a prompt showing the local branches in your current repo and allow you to merge one of these out based on the number allocated to it:
 
 ```
-Merge a branch into your current branch:
+Merge a branch into master:
 
   1: bug_fix/different_sized_tables
   2: develop
@@ -13,6 +13,8 @@ Merge a branch into your current branch:
   4: nullable_factory_fields
 
 Type the number of the branch you want to merge: 3
+
+Merged fix_flaky_amount_specs into master
 ```
 
 ## Setup
